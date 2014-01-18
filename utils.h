@@ -1,5 +1,5 @@
 #include <iostream>
-#include <generator>
+#include "generator.h"
 
 
 int[] generate() {
@@ -35,7 +35,7 @@ void print_tab(int[] pointer) {
 }
 
 
-int add(int[] pointer) {
+int add(int* pointer) {
 	int suma = 0;
 	for(int i=0; i<10; i++) {
 		suma += i;
