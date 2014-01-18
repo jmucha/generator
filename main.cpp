@@ -1,6 +1,4 @@
 #include <iostream>
-#include "min.h"
-#include "max.h"
 #include "utils.h"
 
 int main() {
